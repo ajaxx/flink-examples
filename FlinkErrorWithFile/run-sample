@@ -1,0 +1,7 @@
+#!/bin/bash
+
+${FLINK_HOME}/bin/flink run \
+	--verbose \
+	--parallelism 12 \
+	target/SampleApp-1.0-SNAPSHOT.jar
+fi
